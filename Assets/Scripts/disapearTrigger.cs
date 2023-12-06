@@ -6,11 +6,13 @@ using UnityEngine.Playables;
 public class disapearTrigger : MonoBehaviour
 {
     public PlayableDirector timeline;
+    public GameObject trigger;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
             timeline.Play();
+            trigger.SetActive(false);
 
             Debug.Log("boo");
         }
