@@ -14,7 +14,7 @@ public class disapearTrigger : MonoBehaviour
             timeline.Play();
             trigger.SetActive(false);
 
-            Debug.Log("boo");
+            //Debug.Log("boo");
         }
     }
 }

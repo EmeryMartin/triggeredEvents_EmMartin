@@ -15,7 +15,7 @@ public class lightsOffTrigger : MonoBehaviour
             trigger.SetActive(false);
 
 
-            Debug.Log("boo");
+            //Debug.Log("boo");
         }
     }
 }
